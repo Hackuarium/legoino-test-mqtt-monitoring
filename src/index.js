@@ -10,6 +10,7 @@ connectAndSend();
 async function connectAndSend() {
   // var client = mqtt.connect('mqtt://mqtt.beemos.org');
   var client = mqtt.connect(config.server);
+  console.log(config.server);
   let index = 65536;
   client.on('connect', async function () {
     while (true) {

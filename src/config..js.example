@@ -1,6 +1,6 @@
 'use strict';
 
 module.exports = {
-  server: 'mqtt:/localhost:1883',
+  server: 'mqtt://localhost:1883',
   topic: 'username/Computer/living'
 };
