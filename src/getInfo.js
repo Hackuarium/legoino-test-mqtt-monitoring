@@ -9,7 +9,7 @@ module.exports = async function getData() {
   await delay(5000);
 
   let result = {};
-  let cpuTemperature = await si.cpuTemperature();
+  let cpuTemperature = Math.round(await si.cpuTemperature());
   result.cpuTemperature = cpuTemperature.main;
 
   let mem = await si.mem();
