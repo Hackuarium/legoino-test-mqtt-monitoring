@@ -40,6 +40,6 @@
     "delay": "^3.0.0",
     "legoino-util": "0.0.8",
     "mqtt": "^2.18.3",
-    "systeminformation": "^3.42.9"
+    "systeminformation": "^5.3.1"
   }
 }
