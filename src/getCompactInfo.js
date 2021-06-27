@@ -28,7 +28,7 @@ module.exports = async function getCompactInfo(index) {
     },
     eventId: 0,
     eventValue: 0,
-    deviceId: 1234
+    deviceId: 17217
   };
   let compactLog = createCompactLog(options, 16);
   return compactLog;
